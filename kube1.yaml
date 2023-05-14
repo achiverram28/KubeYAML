@@ -1,0 +1,24 @@
+##  Template/skeleton for Kubernetes object configuration
+apiVersion:
+kind:
+metadata:
+  name:
+  labels:
+    app:
+spec:
+  containers:
+    - name:
+      image:
+      ports:
+---
+apiVersion:
+kind:
+metadata:
+  name:
+  labels:
+    app:
+spec:
+  containers:
+    - name:
+      image:
+      ports:
