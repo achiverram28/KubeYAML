@@ -10,15 +10,16 @@ spec:
     - name:
       image:
       ports:
----
-apiVersion:
-kind:
-metadata:
-  name:
-  labels:
-    app:
-spec:
-  containers:
-    - name:
-      image:
-      ports:
+## If we want we can create more definitons in one file itself
+# ---
+# apiVersion:
+# kind:
+# metadata:
+#   name:
+#   labels:
+#     app:
+# spec:
+#   containers:
+#     - name:
+#       image:
+#       ports:
