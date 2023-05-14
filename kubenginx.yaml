@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod
+  labels:
+    run: nginx
+spec:
+  containers:
+    - name: nginx
+      image: nginxP
+      resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+# status: {}  # It is not necessary to specify the status
